@@ -1,16 +1,17 @@
-*.classpath
-*.class
-*.prefs
-*.jar
-*.lst
-*.project
-*.factorypath
-*.original
+HELP.md
 target/
-.settings/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
 .apt_generated
-.sts4-cache
+.classpath
+.factorypath
+.project
+.settings
 .springBeans
+.sts4-cache
 
 ## Idea
 .idea
